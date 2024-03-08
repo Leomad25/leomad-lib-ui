@@ -3,9 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/leomad-lib-ui.cjs",
   "module": "./dist/leomad-lib-ui.js",
+  "types": "./dist/leomad-lib-ui.d.ts",
   "exports": {
     ".": {
       "import": "./dist/leomad-lib-ui.js",
@@ -30,6 +33,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.2.2",
-    "vite": "^5.1.4"
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3"
   }
 }
